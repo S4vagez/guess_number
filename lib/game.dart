@@ -28,7 +28,7 @@ class Game{
         return 1;
       }
       else{
-        print('error!!');
+        print('errorr!!');
         return 0;
       }
     }
