@@ -13,7 +13,7 @@ void main() {
     var input = stdin.readLineSync();
     var guess = int.tryParse(input!);
     if(guess == null){
-      print('Please enter number only');
+      //print('Please enter number only');
       continue;
     }
     result = game.doGuess(guess);
